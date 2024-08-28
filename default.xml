@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-15.0.0_r3"
            remote="aosp"
@@ -1469,4 +1469,8 @@
   </project>
   <!-- END open-source projects -->
 
+  <!-- START Aris Go changes -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/aris.xml" />
+  <!-- END Aris Go changes -->
 </manifest>
