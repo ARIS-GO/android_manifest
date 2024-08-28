@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-14.0.0_r66"
            remote="aosp"
@@ -1410,4 +1410,9 @@
   <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty" >
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
+  
+  <!-- START Aris Go changes -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/aris.xml" />
+  <!-- END Aris Go changes -->
 </manifest>
