@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- external -->
+  <remove-project name="platform/external/chromium-webview" />
+
   <!-- packages --> 
   <remove-project name="platform/packages/apps/Browser2" />
 </manifest>

@@ -10,7 +10,18 @@
   <remote  name="aris-gitlab"
            fetch="https://gitlab.com/Aris-Go"
            revision="refs/heads/ui" />
-           
+
+  <!-- LineageOS additions -->
+  <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" remote="aris-gitlab" groups="pdk" revision="main" >
+    <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
+    <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
+    <linkfile src="README" dest="external/chromium-webview/README" />
+  </project>
+  <project path="external/chromium-webview/prebuilt/arm" name="android_external_chromium-webview_prebuilt_arm" remote="aris-gitlab" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="aris-gitlab" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86" name="android_external_chromium-webview_prebuilt_x86" remote="aris-gitlab" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" remote="aris-gitlab" groups="pdk" revision="main" />
+
   <!-- packages --> 
   <project path="packages/apps/Chromium" name="android_packages_apps_Chromium" remote="aris-gitlab" clone-depth="1" />
 </manifest>
