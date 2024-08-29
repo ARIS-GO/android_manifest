@@ -1472,5 +1472,6 @@
   <!-- START Aris Go changes -->
   <include name="snippets/remove.xml" />
   <include name="snippets/aris.xml" />
+  <include name="snippets/lineage.xml" />
   <!-- END Aris Go changes -->
 </manifest>
