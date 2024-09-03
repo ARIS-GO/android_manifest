@@ -11,11 +11,11 @@
 
   <remote  name="aris"
            fetch="https://github.com/Aris-Go"
-           revision="refs/heads/ui" />
+           revision="refs/heads/vivi" />
            
   <remote  name="aris-gitlab"
            fetch="https://gitlab.com/Aris-Go"
-           revision="refs/heads/ui" />
+           revision="refs/heads/vivi" />
 
   <!-- build -->
   <project path="build/make" name="android_build" groups="pdk,sysui-studio" remote="aris" >
