@@ -32,6 +32,7 @@
   </project>
 
   <!-- CodeLinaro Additions -->
+  <project path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" groups="qcom,pineapple-vendor" revision="lineage-21.0-caf-sm8650" remote="aris" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="aris" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
