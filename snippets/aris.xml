@@ -71,6 +71,9 @@
   <project path="hardware/qcom-caf/sm8650/display" remote="aris" name="android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sm8650" />
   <project path="hardware/qcom-caf/sm8650/media" remote="aris" name="android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="lineage-21.0-caf-sm8650" />
 
+  <!-- external -->
+  <project path="external/json-c" remote="github" name="LineageOS/android_external_json-c" groups="qcom,qssi" />
+
   <!-- LineageOS additions -->
   <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" remote="aris-gitlab" groups="pdk" revision="main" >
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
