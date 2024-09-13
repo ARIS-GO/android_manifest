@@ -72,6 +72,10 @@
   <project path="hardware/qcom-caf/sm8650/media" remote="aris" name="android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="lineage-21.0-caf-sm8650" />
 
   <!-- external -->
+  <project path="external/ant-wireless/ant_client" remote="github" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom" revision="lineage-21.0" />
+  <project path="external/ant-wireless/ant_native" remote="github" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom" revision="lineage-21.0" />
+  <project path="external/ant-wireless/ant_service" remote="github" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom" revision="lineage-21.0" />
+  <project path="external/ant-wireless/hidl" remote="github" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" revision="lineage-21.0" />
   <project path="external/json-c" remote="github" name="LineageOS/android_external_json-c" groups="qcom,qssi" revision="lineage-21.0" />
 
   <!-- LineageOS additions -->
