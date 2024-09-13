@@ -73,6 +73,7 @@
 
   <!-- external -->
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/tinycompress" />
 
   <!-- packages --> 
   <remove-project name="platform/packages/apps/Browser2" />

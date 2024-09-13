@@ -77,6 +77,7 @@
   <project path="external/ant-wireless/ant_service" remote="github" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom" revision="lineage-21.0" />
   <project path="external/ant-wireless/hidl" remote="github" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" revision="lineage-21.0" />
   <project path="external/json-c" remote="github" name="LineageOS/android_external_json-c" groups="qcom,qssi" revision="lineage-21.0" />
+  <project path="external/tinycompress" remote="aris" name="android_external_tinycompress" groups="pdk" />
 
   <!-- LineageOS additions -->
   <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" remote="aris-gitlab" groups="pdk" revision="main" >
