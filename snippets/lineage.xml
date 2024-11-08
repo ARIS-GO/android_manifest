@@ -74,6 +74,10 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" remote="lineage" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-video" />
 
   <!-- external -->
+  <project path="external/ant-wireless/ant_client" remote="lineage" name="android_external_ant-wireless_ant_client" groups="qcom" />
+  <project path="external/ant-wireless/ant_native" remote="lineage" name="android_external_ant-wireless_ant_native" groups="qcom" />
+  <project path="external/ant-wireless/ant_service" remote="lineage" name="android_external_ant-wireless_ant_service" groups="qcom" />
+  <project path="external/ant-wireless/hidl" remote="lineage" name="android_external_ant-wireless_hidl" groups="qcom,qssi" />
   <project path="external/json-c" remote="lineage" name="android_external_json-c" groups="qcom,qssi" />
 
   <!-- LineageOS additions -->
