@@ -73,6 +73,9 @@
   <project path="vendor/qcom/opensource/vibrator" remote="lineage" name="android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" />
   <project path="vendor/qcom/opensource/wfd-commonsys" remote="lineage" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-video" />
 
+  <!-- external -->
+  <project path="external/json-c" remote="lineage" name="android_external_json-c" groups="qcom,qssi" />
+
   <!-- LineageOS additions -->
   <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" remote="lineage" groups="pdk" revision="main" >
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
