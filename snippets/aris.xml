@@ -70,4 +70,7 @@
   <project path="hardware/qcom-caf/sm8650/dataipa" remote="aris" name="android_vendor_qcom_opensource_dataipa" groups="qcom,kailua-vendor" revision="lineage-22.0-caf-sm8650" />
   <project path="hardware/qcom-caf/sm8650/display" remote="aris" name="android_hardware_qcom_display" groups="qcom" revision="lineage-22.0-caf-sm8650" />
   <project path="hardware/qcom-caf/sm8650/media" remote="aris" name="android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="lineage-22.0-caf-sm8650" />
+
+  <!-- vendor -->
+  <project path="vendor/aris" name="android_vendor_aris" remote="aris" />
 </manifest>
