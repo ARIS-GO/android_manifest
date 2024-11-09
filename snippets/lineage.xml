@@ -4,6 +4,9 @@
            fetch="https://github.com/LineageOS"
            revision="refs/heads/lineage-22.0" /> 
 
+  <!-- Build -->
+  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="lineage" />
+
   <!-- CodeLinaro Additions -->
   <project path="device/qcom/sepolicy" remote="lineage" name="android_device_qcom_sepolicy" groups="qcom,qssi" />
   <project path="device/qcom/sepolicy-legacy-um" remote="lineage" name="android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-22.0-legacy-um" />
