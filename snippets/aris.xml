@@ -31,6 +31,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- bootable -->
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="aris" />
+
   <!-- CodeLinaro Additions -->
   <project path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" groups="qcom,pineapple-vendor" revision="lineage-22.0-caf-sm8650" remote="aris" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="aris" >

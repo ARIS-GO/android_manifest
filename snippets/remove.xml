@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- bootable -->
+  <remove-project name="platform/bootable/recovery" />
+
   <!-- build -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/blueprint" />
