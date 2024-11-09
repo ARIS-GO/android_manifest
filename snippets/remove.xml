@@ -2,6 +2,7 @@
 <manifest>
   <!-- bootable -->
   <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/bootable/deprecated-ota" />
 
   <!-- build -->
   <remove-project name="platform/build" />
