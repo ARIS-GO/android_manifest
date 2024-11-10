@@ -86,8 +86,10 @@
   <project path="external/ant-wireless/ant_native" remote="lineage" name="android_external_ant-wireless_ant_native" groups="qcom" />
   <project path="external/ant-wireless/ant_service" remote="lineage" name="android_external_ant-wireless_ant_service" groups="qcom" />
   <project path="external/ant-wireless/hidl" remote="lineage" name="android_external_ant-wireless_hidl" groups="qcom,qssi" />
+  <project path="external/e2fsprogs" remote="lineage" name="android_external_e2fsprogs" groups="pdk" />
   <project path="external/gptfdisk" remote="lineage" name="android_external_gptfdisk" groups="pdk" />
   <project path="external/json-c" remote="lineage" name="android_external_json-c" groups="qcom,qssi" />
+  <project path="external/mksh" remote="lineage" name="android_external_mksh" groups="pdk" />
   <project path="external/tinycompress" remote="lineage" name="android_external_tinycompress" groups="pdk" />
 
   <!-- LineageOS additions -->
