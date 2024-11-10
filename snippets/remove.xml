@@ -80,6 +80,9 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/tinycompress" />
 
+  <!-- packages -->
+  <remove-project name="platform/packages/modules/Virtualization" />
+
   <!-- qcom hardware-->
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/camera" />
