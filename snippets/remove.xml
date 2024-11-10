@@ -77,6 +77,7 @@
 
   <!-- external -->
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/tinycompress" />
 
   <!-- qcom hardware-->
