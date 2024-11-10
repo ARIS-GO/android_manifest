@@ -75,6 +75,7 @@
   <project path="hardware/qcom-caf/sm8650/media" remote="aris" name="android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="lineage-22.0-caf-sm8650" />
 
   <!-- system -->
+  <project path="system/core" remote="aris" name="android_system_core" groups="pdk" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="aris" />
 
   <!-- vendor -->
