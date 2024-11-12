@@ -92,6 +92,9 @@
   <project path="external/mksh" remote="lineage" name="android_external_mksh" groups="pdk" />
   <project path="external/tinycompress" remote="lineage" name="android_external_tinycompress" groups="pdk" />
 
+  <!-- hardware -->
+  <project path="hardware/ril" remote="lineage" name="android_hardware_ril" groups="pdk" />
+
   <!-- LineageOS additions -->
   <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" remote="lineage" groups="pdk" revision="main" >
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />

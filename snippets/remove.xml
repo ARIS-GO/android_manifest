@@ -85,7 +85,7 @@
   <!-- packages -->
   <remove-project name="platform/packages/modules/Virtualization" />
 
-  <!-- qcom hardware-->
+  <!-- hardware-->
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
@@ -100,6 +100,7 @@
   <remove-project name="platform/hardware/qcom/sm8150/gps" />
   <remove-project name="platform/hardware/qcom/sm8150/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/ril" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />
