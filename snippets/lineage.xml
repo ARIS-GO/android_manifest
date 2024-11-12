@@ -81,6 +81,9 @@
   <project path="vendor/qcom/opensource/vibrator" remote="lineage" name="android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" />
   <project path="vendor/qcom/opensource/wfd-commonsys" remote="lineage" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-video" />
 
+  <!-- development -->
+  <project path="development" name="android_development"  remote="lineage" groups="developers,pdk-cw-fs,pdk-fs" />
+
   <!-- external -->
   <project path="external/ant-wireless/ant_client" remote="lineage" name="android_external_ant-wireless_ant_client" groups="qcom" />
   <project path="external/ant-wireless/ant_native" remote="lineage" name="android_external_ant-wireless_ant_native" groups="qcom" />
