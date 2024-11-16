@@ -74,6 +74,9 @@
   <project path="hardware/qcom-caf/sm8650/display" remote="aris" name="android_hardware_qcom_display" groups="qcom" revision="lineage-22.0-caf-sm8650" />
   <project path="hardware/qcom-caf/sm8650/media" remote="aris" name="android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="lineage-22.0-caf-sm8650" />
 
+  <!-- packages -->
+  <project path="packages/apps/Settings" remote="aris" name="android_packages_apps_Settings" groups="pdk-fs" />
+
   <!-- system -->
   <project path="system/core" remote="aris" name="android_system_core" groups="pdk" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="aris" />

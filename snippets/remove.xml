@@ -87,6 +87,7 @@
 
   <!-- packages -->
   <remove-project name="platform/packages/modules/Virtualization" />
+  <remove-project name="platform/packages/apps/Settings" />
 
   <!-- hardware-->
   <remove-project name="platform/hardware/qcom/audio" />
