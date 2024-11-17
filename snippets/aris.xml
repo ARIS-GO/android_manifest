@@ -76,6 +76,7 @@
 
   <!-- packages -->
   <project path="packages/apps/Settings" remote="aris" name="android_packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/ArisSettings" remote="aris" name="android_packages_apps_ArisSettings" /> 
 
   <!-- system -->
   <project path="system/core" remote="aris" name="android_system_core" groups="pdk" />
