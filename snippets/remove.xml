@@ -19,8 +19,6 @@
   <remove-project name="device/google/akita-sepolicy" />
   <remove-project name="device/google/akita-kernels/5.15" />
   <remove-project name="device/google/atv" />
-  <remove-project name="device/google/barbet" />
-  <remove-project name="device/google/barbet-sepolicy" />
   <remove-project name="device/google/bluejay" />
   <remove-project name="device/google/bluejay-sepolicy" />
   <remove-project name="device/google/bluejay-kernels/5.10" />
@@ -31,9 +29,6 @@
   <remove-project name="device/google/comet" />
   <remove-project name="device/google/comet-kernels/6.1" />
   <remove-project name="device/google/comet-sepolicy" />
-  <remove-project name="device/google/coral" />
-  <remove-project name="device/google/coral-kernel" />
-  <remove-project name="device/google/coral-sepolicy" />
   <remove-project name="device/google/felix" />
   <remove-project name="device/google/felix-sepolicy" />
   <remove-project name="device/google/felix-kernels/5.10" />
@@ -50,22 +45,13 @@
   <remove-project name="device/google/pantah-kernels/5.10" />
   <remove-project name="device/google/raviole" />
   <remove-project name="device/google/raviole-kernels/5.10" />
-  <remove-project name="device/google/redbull" />
-  <remove-project name="device/google/redbull-kernel" />
-  <remove-project name="device/google/redbull-sepolicy" />
-  <remove-project name="device/google/redfin" />
-  <remove-project name="device/google/redfin-sepolicy" />
   <remove-project name="device/google/tangorpro" />
   <remove-project name="device/google/tangorpro-sepolicy" />
   <remove-project name="device/google/tangorpro-kernels/5.10" />
   <remove-project name="device/google/shusky" />
   <remove-project name="device/google/shusky-kernels/5.15" />
   <remove-project name="device/google/shusky-sepolicy" />
-  <remove-project name="device/google/sunfish" />
-  <remove-project name="device/google/sunfish-kernel" />
-  <remove-project name="device/google/sunfish-sepolicy" />
   <remove-project name="device/google/trout" />
-  <remove-project name="device/google/vrservices" />
   <remove-project name="device/google/zuma" />
   <remove-project name="device/google/zuma-sepolicy" />
   <remove-project name="device/google/zumapro" />
@@ -90,19 +76,6 @@
   <remove-project name="platform/packages/apps/Settings" />
 
   <!-- hardware-->
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/camera" />
-  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/sm7250/display" />
-  <remove-project name="platform/hardware/qcom/sm7250/gps" />
-  <remove-project name="platform/hardware/qcom/sm7250/media" />
-  <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
-  <remove-project name="platform/hardware/qcom/sm8150/display" />
-  <remove-project name="platform/hardware/qcom/sm8150/gps" />
-  <remove-project name="platform/hardware/qcom/sm8150/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
 
